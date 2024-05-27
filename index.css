@@ -1,0 +1,330 @@
+*{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    color:#fffefe;
+}
+body{
+    background-color: black;
+}
+ #head{
+    width:100%;
+    height: 100vh;
+    background:url(https://preview.redd.it/is-there-a-lore-reason-rick-is-the-smartest-man-in-the-v0-uhi9rzimwrmb1.png?auto=webp&s=7c10d058c8d3be753d449236219aae5e4129f18f);
+   background-size: cover;
+    background-position: center;
+} 
+.container{
+    padding: 10px 10%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width:240px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content:'';
+    width:0;
+    height:3px;
+    background: #ff004f;
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.head-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.head-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.head-text h1 span{
+    color:#ff004f;
+}
+/* ---about-me --- */
+#about{
+    padding : 80px 0;
+    color:#ababab;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+#me{
+    font-size: 28px;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px;
+}
+.Languages{
+    margin-top: 100px;
+}
+.Languages h1{
+    font-family: sans-serif;
+    font-size: 80px; 
+}
+#imgs1{
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0);
+    transition: 0.3s;
+    margin-top:12px;
+    padding:5px;
+    border-radius: 50%;
+    width:125px;
+}
+/* #imgs1:hover{
+    box-shadow:2px 4px 6px 8px rgb(86, 229, 239);
+} */
+#imgs{
+    border-radius: 100%;
+    padding:5px;
+    margin-left:25px;
+    width:125px;
+}
+#Projects h1{
+    font-size: 80px;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+.main{
+    display: flex;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 5px 10px 0 rgb(12, 14, 10);
+  transition: 0.3s;
+  width:25%;
+  margin-left:55px;
+  background-color: white;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgb(255, 0, 85);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+#h2{
+    font-size: 30px;
+    text-align: center;
+    color:black;
+    margin-bottom:20px;
+}
+#para{
+    color: black;
+    text-align:center;
+    font-size:20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#github{
+    width:100px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-right:auto;
+}
+#dep1{
+    color:green;
+}
+#dep2{
+    color:blue;
+}
+#dep3{
+    color:red;
+}
+#dep4{
+    color:rgb(255, 166, 0);
+}
+#dep5{
+    color:rgb(255, 0, 234);
+}
+#dep6{
+    color:rgb(0, 221, 255);
+}
+#dep7{
+    color:rgb(191, 255, 0);
+}
+#dep8{
+    color:rgb(248, 151, 151);
+}
+.card2{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 5px 10px 0 rgb(12, 14, 10);
+    transition: 0.3s;
+    width:25%;
+    margin-left:25px;
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 10px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card2:hover {
+    box-shadow: 0 10px 20px 0 rgb(115, 255, 0);
+  }
+  
+  /* Add some padding inside the card container */
+  .container2{
+    padding: 2px 16px;
+  }
+  #h2{
+      font-size: 30px;
+      text-align: center;
+      color:black;
+      margin-bottom:20px;
+  }
+  #para{
+      color: black;
+      text-align:center;
+      font-size:20px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #github{
+      width:100px;
+      border-radius: 50%;
+      margin-left: 40%;
+      margin-right:auto;
+  }
+  #dep1{
+      color:green;
+  }
+  #dep2{
+      color:blue;
+  }
+  #dep3{
+      color:red;
+  }
+  #dep4{
+      color:rgb(255, 166, 0);
+     }
+     .card3{
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 5px 10px 0 rgb(12, 14, 10);
+        transition: 0.3s;
+        width:25%;
+        margin-left:45px;
+        background-color: white;
+        margin-top: 25px;
+        border-radius: 10px;
+      }
+      
+      /* On mouse-over, add a deeper shadow */
+      .card3:hover {
+        box-shadow: 0 10px 20px 0 rgb(19, 138, 249);
+      }
+      
+      /* Add some padding inside the card container */
+      .container3{
+        padding: 2px 16px;
+      }
+      #h2{
+          font-size: 30px;
+          text-align: center;
+          color:black;
+          margin-bottom:20px;
+      }
+      #para{
+          color: black;
+          text-align:center;
+          font-size:20px;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      #github{
+          width:100px;
+          border-radius: 50%;
+          margin-left: 40%;
+          margin-right:auto;
+      }
+      /* #dep1{
+          color:green;
+      }
+      #dep2{
+          color:blue;
+      }
+      #dep3{
+          color:red;
+      }
+      #dep4{
+          color:rgb(255, 166, 0);
+         } */
+#experience{
+padding : 80px 0;
+color:#ababab;
+}         
+.row1{
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.experience-col-1{
+flex-basis: 35%;
+}
+.experience-col-1 img{
+ width: 100%;
+ border-radius: 15px;
+ }
+ .experience-col-2{
+flex-basis: 60%;
+ }
+.title{
+font-size: 60px;
+font-weight: 600;
+color: white;
+}
+#me{
+font-size: 28px;
+}
+footer svg {
+    margin-left: 100px;
+    margin-top:25px;
+    width:55px;
+}
+#tact h1{
+    font-size: 25px;
+}
+#leetcode{
+    width:65px;
+    margin-left:100px;
+    margin-bottom:10px;
+}
